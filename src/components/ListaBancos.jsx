@@ -1,6 +1,6 @@
 
 import React from 'react'
-import {bancos} from "../classes/bancos";
+import { bancos } from "../classes/bancos";
 
 export default function ListaBancos() {
   return (

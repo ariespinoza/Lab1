@@ -1,6 +1,5 @@
 
-export default function Saludo() {
-
+export default function Variables() {
   const nombre = "Ariana";
   const apellido = "Espinoza";
   const materia = "TC3004B";
@@ -19,7 +18,7 @@ export default function Saludo() {
     direccion: {
       ciudad: "Mty",
       zip: 64840,
-    }
+    },
   };
 
 
@@ -27,8 +26,8 @@ export default function Saludo() {
     <div>
       <h2>Componente con variables</h2>
 
-      <p>Nombre completo: {nombreCompleto1}</p>
-
+      <p>Nombre completo: {nombreCompleto}</p>
+      <p>Materia: {materia}</p>
       <p>Saludo: {getSaludo(nombre)}</p>
 
       <h3>Estudiante</h3>
@@ -39,5 +38,5 @@ export default function Saludo() {
       <p>ZIP: {estudiante.direccion.zip}</p>
 
     </div>
-  )
+  );
 }
